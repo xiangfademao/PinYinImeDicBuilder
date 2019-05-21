@@ -278,6 +278,7 @@ bool NGram::build_unigram(LemmaEntry *lemma_arr, size_t lemma_num,
     if (freqs[pos] > max_freq)
       max_freq = freqs[pos];
   }
+  printf("最大的词频:%f\n",max_freq);
 
   // calculate the code book
   if (NULL == freq_codes_df_)

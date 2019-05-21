@@ -434,6 +434,7 @@ size_t DictBuilder::read_raw_dict(const char* fn_raw,
       return false;
     }
     lemma_arr_[i].freq = utf16_atof(token);
+    printf("词频:%f\n",lemma_arr_[i].freq);
 
     if (lemma_size > 1 && lemma_arr_[i].freq < 60) {
       i--;
