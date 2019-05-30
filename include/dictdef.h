@@ -36,8 +36,8 @@ typedef long long          int64;
 typedef unsigned long long uint64;
 
 const bool kPrintDebug0 = true;
-const bool kPrintDebug1 = true;
-const bool kPrintDebug2 = true;
+const bool kPrintDebug1 = false;
+const bool kPrintDebug2 = false;
 
 // The max length of a lemma.
 const size_t kMaxLemmaSize = 8;

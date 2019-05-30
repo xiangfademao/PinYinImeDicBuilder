@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
     if (argc >= 3)
         success = dict_trie->build_dict(argv[1], argv[2]);
     else
-        success = dict_trie->build_dict("../data/rawdict_utf16_65105_freq.txt",
+        success = dict_trie->build_dict("../data/rawdict_utf16_65105_freq.txt.bak",
                                         "../data/valid_utf16.txt");
 
     if (success) {
